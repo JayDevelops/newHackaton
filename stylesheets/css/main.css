@@ -5,13 +5,28 @@ font-family: 'Staatliches', cursive;
 */
 
 
+.titleContainer {
+  padding-top: 70px;
+  text-align: center;
+}
 
+.mainTitle {
+  font-family: 'Staatliches', cursive;
+  font-size: 40px;
+  color: #2b7cab;
+}
+
+.subTitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #2b7cab;
+}
 
 /*THIS IS THE ACTUAL CONTENT ISTELF DOWN*/
 .column {
   float: right;
   width: 33.33%;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 //THe actual container itself
