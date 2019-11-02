@@ -1,0 +1,15 @@
+/*
+We got fonts in the following
+font-family: 'Staatliches', cursive;
+and
+font-family: 'Roboto', sans-serif;
+*/
+
+
+.leftSideBar {
+  width: 40%;
+}
+
+.rightSideBar {
+  width: 40%;
+}
