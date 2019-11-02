@@ -1,0 +1,52 @@
+/*
+different font families
+font-family: 'Roboto', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
+
+
+
+
+/*THIS IS THE ACTUAL CONTENT ISTELF DOWN*/
+.column {
+  float: right;
+  width: 33.33%;
+  padding-top: 40px;
+}
+
+//THe actual container itself
+.leftContainer, .middleContainer, .righContainer {
+  width: 90%;
+  padding-left: 10px;
+}
+
+//The actual titles fonts here
+.leftTitle, .middleTitle, .rightTitle {
+  font-family: 'Staatliches', cursive;
+}
+
+//The actual fonts texts here
+.leftParagraph, .middleParagraph, .rightParagraph {
+  font-family: "Roboto", serf;
+}
+
+.pictures {
+  width: 90%;
+  height: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* PHONE CSS QUERIES BELOW */
+@media only screen and (max-width: 700px) {
+  .column {
+    float: left;
+    width: 100%;
+  }
+}
