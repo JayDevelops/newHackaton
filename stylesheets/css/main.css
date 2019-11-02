@@ -4,9 +4,9 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Staatliches', cursive;
 */
 
-
 .titleContainer {
-  padding-top: 70px;
+  padding-top: 250px;
+  padding-bottom: 250px;
   text-align: center;
 }
 

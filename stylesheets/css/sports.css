@@ -1,0 +1,22 @@
+.title {
+font-family: 'ZCOOL XiaoWei', serif;
+  text-align: center;
+  padding:
+}
+
+.sports {
+  height:
+  display: block;
+  position: relative;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+body{
+  background-color: grey;
+}
