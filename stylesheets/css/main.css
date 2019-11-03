@@ -4,6 +4,19 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Staatliches', cursive;
 */
 
+.bgWrapper {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  height: auto;
+  top: 5%;
+  left: 0%;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .titleContainer {
   padding-top: 250px;
   padding-bottom: 250px;
@@ -14,35 +27,45 @@ font-family: 'Staatliches', cursive;
   font-family: 'Staatliches', cursive;
   font-size: 40px;
   color: #2b7cab;
+  text-shadow: 2px 2px #000000;
+
 }
 
 .subTitle {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #2b7cab;
+  text-shadow: 1px 1px #000000;
 }
+
+
+
+
 
 /*THIS IS THE ACTUAL CONTENT ISTELF DOWN*/
 .column {
   float: right;
   width: 33.33%;
-  padding-top: 20px;
+  padding-top: 100px;
 }
 
 //THe actual container itself
-.leftContainer, .middleContainer, .righContainer {
+.leftContainer, .middleContainer, .rightContainer {
   width: 90%;
   padding-left: 10px;
 }
 
 //The actual titles fonts here
 .leftTitle, .middleTitle, .rightTitle {
-  font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches', "cursive";
+  font-size: 40px;
+  color: #2b7cab;
 }
 
 //The actual fonts texts here
 .leftParagraph, .middleParagraph, .rightParagraph {
-  font-family: "Roboto", serf;
+  font-family: "Roboto", "serif";
+  font-size: 30px;
 }
 
 .pictures {
